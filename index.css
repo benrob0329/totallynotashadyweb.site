@@ -3,10 +3,17 @@ body {
 	max-width:40em;
 	padding:0 .62em;
 	font:1.2em/1.62 Hack;
+	linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)
 }
 
 h1, h2, h3 {
 	line-height:1.2;
+	border-bottom: 1px solid black;
+}
+
+h1 {
+	border-bottom: 2px solid black;
+	/* This overrides the 1px bottom border from previous section */
 }
 
 @media print {
