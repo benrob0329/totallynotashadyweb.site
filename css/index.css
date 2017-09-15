@@ -12,7 +12,7 @@ html, body {
 
 body {
 	/* background: linear-gradient(141deg, #6d6d6d 0%, #383838 51%, #757575 75%); */
-	background: linear-gradient(141deg, #4c4c4c 25%, #000000 50%, #4c4c4c 75%);
+	background: linear-gradient(0deg, #00000 25%, #4c4c4c 50%, #00000 75%);
 }
 
 
