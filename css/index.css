@@ -1,0 +1,40 @@
+* {
+	/* Apply to EVERYTHING */
+	color: #0cff00;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	/* background: linear-gradient(141deg, #6d6d6d 0%, #383838 51%, #757575 75%); */
+	background: linear-gradient(0deg, #000000 0%, #232323 50%, #000000 100%);
+}
+
+
+#content {
+	margin:1em auto;
+	max-width:40em;
+	padding:0 .62em;
+	font:1.2em/1.62 Hack, monospace;
+}
+
+h1, h2, h3 {
+	line-height:1.2;
+	border-bottom: 1px solid #00ff61;
+}
+
+h1 {
+	border-bottom: 2px solid #00ff61;
+	/* This overrides the 1px bottom border from previous section */
+}
+
+@media print {
+	body {
+		max-width:none
+	}
+}
