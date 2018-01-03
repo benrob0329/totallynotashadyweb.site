@@ -1,6 +1,6 @@
 * {
 	/* Apply to EVERYTHING */
-	color: #0cff00;
+	color: #f4be1a;
 	font: Mono
 }
 
@@ -27,11 +27,11 @@ body {
 
 h1, h2, h3 {
 	line-height:1.2;
-	border-bottom: 1px solid #00ff61;
+	border-bottom: 1px solid #f4be1a;
 }
 
 h1 {
-	border-bottom: 2px solid #00ff61;
+	border-bottom: 2px solid #f4be1a;
 	/* This overrides the 1px bottom border from previous section */
 }
 
