@@ -14,6 +14,7 @@ html, body {
 body {
 	/* background: linear-gradient(141deg, #6d6d6d 0%, #383838 51%, #757575 75%); */
 	background: linear-gradient(0deg, #000000 0%, #232323 50%, #000000 100%);
+	background-attachment: fixed;
 }
 
 
